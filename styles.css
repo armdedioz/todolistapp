@@ -21,7 +21,7 @@
 .todo-app{
     width: 90%;
     max-width: 900px;
-    min-height: 600px;
+    min-height: 900px;
     background: #AAAAAA;
     margin: 50px auto;
     padding: 40px;
@@ -65,7 +65,7 @@ button{
 }
 ul li{
     list-style: none;
-    font-size: 17px;
+    font-size: 20px;
     padding: 12px 8px 12px 50px;
     user-select: none;
     cursor: pointer;
@@ -88,7 +88,7 @@ ul li.checked{
     text-decoration: line-through;
 }
 ul li.checked::before{
-    background-image: url(images/checked.png)
+    background-image: url(images/xp.webp)
 }
 ul li span{
     position: absolute;
